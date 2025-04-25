@@ -44,7 +44,7 @@ class _MainScreenState extends State<MainScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Bottom Navigation'),backgroundColor: Colors.blue,),
+      appBar: AppBar(title: Text('Bottom Navigation'),backgroundColor: Colors.greenAccent,),
       body: _pages[_selectedIndex],
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: _selectedIndex,
